@@ -7,7 +7,7 @@
 void ISRMovment(){
     if (digitalRead(buttonPin1) == HIGH)
     {
-        movement = 0b00000001;
+        movement = 0b0000001;
         return;
     }
     if (digitalRead(buttonPin2) == HIGH)
