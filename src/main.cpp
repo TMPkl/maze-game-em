@@ -30,7 +30,7 @@ struct Point playerPoint;
 
 byte counter = 0;
 bool blink_color = false;
-byte isCollected =0b00000111;  // 0b00000000 - nothing, 0b00000001 - first collected, 0b00000010 - second collected, 0b00000100 - third collected, 0b00000111 - all collected, 0b00001000 - finish line
+byte isCollected =0b0000000;  // 0b00000000 - nothing, 0b00000001 - first collected, 0b00000010 - second collected, 0b00000100 - third collected, 0b00000111 - all collected, 0b00001000 - finish line
 
 void setup() {
   pinMode(buttonPin1, INPUT);
@@ -45,8 +45,8 @@ void setup() {
     for (;;); // Don't proceed, loop forever
   }
 
-    playerPoint.x = 118;
-    playerPoint.y = 14;//SCREEN_HEIGHT/2-2;
+    playerPoint.x = 2;
+    playerPoint.y = SCREEN_HEIGHT/2-2;
 }
 
 
@@ -116,7 +116,7 @@ void loop() {
         Serial.print(blink_color);
         Serial.print(" ");
         Serial.print(counter);
-        delay(300);
+        delay(500);
     }
     if (bitRead(isCollected, 3) == 0)
     {
