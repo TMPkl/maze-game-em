@@ -1,6 +1,7 @@
 # Arduino Project with PlatformIO in Visual Studio Code
 
 This project is developed using PlatformIO in Visual Studio Code for Arduino Uno, incorporating a 4x button setup and an Adafruit OLED 0.96" display. It utilizes bitmaps that can be changed, with the potential for future integration of an SD card. Interrupts are employed to enhance gameplay experience.
+- game play: https://youtu.be/W_IYQnbUQrI
 
 ## Overview
 
