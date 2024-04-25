@@ -1,5 +1,0 @@
-# To-Do List
-
-- [ ] Make movmenet controlling as extern interrupt
-- [ ] Better map
-- [ ] make finish line on map and in code
