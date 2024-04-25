@@ -26,6 +26,6 @@ This repository contains the code for an Arduino project aimed at providing a fu
 
 Contributions to this project are welcome! If you have any suggestions for improvements, feature requests, or bug fixes, please feel free to open an issue or submit a pull request.
 
-## License
-
+## License and others
+I used this application to convert bitmap to image: https://javl.github.io/image2cpp/
 This project is licensed under the [MIT License](LICENSE).
