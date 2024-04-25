@@ -28,4 +28,5 @@ Contributions to this project are welcome! If you have any suggestions for impro
 
 ## License and others
 I used this application to convert bitmap to image: https://javl.github.io/image2cpp/
+
 This project is licensed under the [MIT License](LICENSE).
